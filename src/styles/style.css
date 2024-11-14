@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,700;1,300;1,700&family=Space+Mono:ital@0;1&display=swap");
+
+/* Vendors */
+@import "vendors/normalize";
+
+/* Utils */
+@import "utils/variables";
+
+/* Base */
+@import "base/main";
+@import "base/media";
+
+/* Layouts */
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/grid";
+
+/* Components */
+@import "components/menu";
+@import "components/hero";
+@import "components/menuTheme";

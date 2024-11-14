@@ -1,0 +1,25 @@
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.duotone {
+  background-color: var(--brand-tonique);
+  position: relative;
+  display: flex;
+  img {
+    filter: grayscale(100%);
+    mix-blend-mode: multiply;
+    object-fit: cover;
+    flex: 1 0 100%;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: var(--brand-dominante);
+    mix-blend-mode: lighten;
+  }
+}

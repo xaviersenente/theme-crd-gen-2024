@@ -1,0 +1,39 @@
+/* Colors */
+:root {
+  /* color */
+  --brand-dominante: #1d096b;
+  --brand-dominante-light: #8c83c5;
+  --brand-tonique: #feaa9b;
+  --brand-tonique-light: #f8d3cc;
+  --gray-100: #fafafa;
+  --gray-200: #e9e7e4;
+  --gray-400: #cdcac7;
+  --gray-600: #989592;
+  --gray-800: #1c1514;
+
+  /* Typographie */
+  --font-mono: "Space Mono", monospace;
+  --font-sans: "Mulish", sans-serif;
+
+  /* Font-size */
+  /* https://clamp.font-size.app/ */
+  --fs-title-1: clamp(2.25rem, 0.65rem + 4vw, 4rem);
+  --fs-title-2: clamp(1.75rem, 1.5214rem + 0.5714vw, 2rem);
+  --fs-title-3: clamp(1.125rem, 0.7821rem + 0.8571vw, 1.5rem);
+  --fs-body: clamp(0.8125rem, 0.6982rem + 0.2857vw, 0.9375rem);
+  --fs-excerpt: clamp(1.375rem, 1.0321rem + 0.8571vw, 1.75rem);
+  --fs-small: clamp(0.6875rem, 0.5732rem + 0.2857vw, 0.8125rem);
+  --fs-display: clamp(3rem, 2.0857rem + 2.2857vw, 4rem);
+
+  /* Spaces */
+  --3xs: 2px;
+  --2xs: 4px;
+  --xs: 6px;
+  --sm: 8px;
+  --md: 12px;
+  --lg: 16px;
+  --xl: 20px;
+  --2xl: 24px;
+  --3xl: 32px;
+  --4xl: 48px;
+}

@@ -1,0 +1,42 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 4fr 1fr;
+  grid-row-gap: var(--4xl);
+}
+
+.hero__header {
+  grid-row: 1 / span 1;
+  align-self: flex-end;
+  color: var(--gray-100);
+}
+
+.hero__chapo {
+  background-color: var(--gray-100);
+  padding: 0 var(--2xl);
+  grid-row: 2 / span 1;
+  margin-left: calc(var(--2xl) * -1);
+  margin-right: calc(var(--2xl) * -1);
+  display: grid;
+  align-items: center;
+}
+
+.hero__img {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  object-fit: cover;
+}
+
+.hero__subtitle {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: var(--fs-small);
+  font-family: var(--sans-serif);
+}
+
+.hero__text {
+  font-size: var(--fs-excerpt);
+  line-height: 1.5;
+}

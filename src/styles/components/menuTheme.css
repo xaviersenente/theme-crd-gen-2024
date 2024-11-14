@@ -1,0 +1,16 @@
+.menuTheme__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: var(--2xl);
+}
+
+.menuTheme__link {
+  color: var(--gray-800);
+  text-decoration: none;
+  font-family: var(--font-mono);
+  font-size: var(--fs-excerpt);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

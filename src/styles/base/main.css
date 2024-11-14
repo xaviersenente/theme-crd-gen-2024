@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+  background-color: var(--gray-100);
+}
+
+h1,
+h2 {
+  font-family: var(--font-mono);
+  font-weight: normal;
+}
+
+h1 {
+  font-size: var(--fs-title-1);
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: var(--fs-title-2);
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: var(--fs-title-3);
+  line-height: 1.4;
+}
+
+button,
+input,
+select,
+textarea {
+  appearance: none;
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.listUnstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.noscroll {
+  overflow: hidden;
+}

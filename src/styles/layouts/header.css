@@ -1,0 +1,24 @@
+.header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--2xl);
+}
+
+.header__end {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.header__search {
+  width: 80px;
+  svg > * {
+    stroke: var(--gray-100);
+  }
+}

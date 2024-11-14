@@ -1,12 +1,12 @@
 {{> "layouts/header.hbs" }}
-<div class="hero">
+<div class="hero grid">
   <div class="hero__header">
     <h1 class="hero__title">Conservatoire Henri Dutilleux</h1>
     <h2 class="hero__subtitle">Conservatoire à rayonnement départemental du Grand Belfort</h2>
   </div>
   <div class="hero__chapo">
     <nav class="hero__nav menuTheme">
-      <ul class="menuTheme__list">
+      <ul class="menuTheme__list listUnstyled">
         <li class="menuTheme__item">
           <a href="#" class="menuTheme__link">
             <svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +34,7 @@
       </ul>
     </nav>
   </div>
-  <picture class="hero__img">
+  <picture class="hero__img duotone">
     <img src="/src/assets/photos/agenda-musique-06.jpg" alt="Violoncelliste">
   </picture>
 </div>
@@ -57,8 +57,40 @@
     <p class="section__intro">Lieu de création artistique, le conservatoire propose régulièrement des actions culturelles ouvertes à tous.</p>
   </header>
   {{> "components/btn.hbs" class="section__link" link="agenda" text="Voir tous les évènements"}}
+  {{> "components/card.hbs"
+    imgName="agenda-danse.jpg"
+    imgAlt="danse"
+    title="Danse contemporaine"
+    date="Lundi 15 mars à 20h30"
+    excerpt="Plongez dans un spectacle envoûtant où mouvement et émotion se rencontrent pour redéfinir les codes de la danse moderne."
+    link="single"
+  }}
+  {{> "components/card.hbs"
+    imgName="agenda-03.jpg"
+    imgAlt="Le malade imaginaire"
+    title="Le malade imaginaire"
+    date="4 avril à 20h30"
+    excerpt="Redécouvrez l'œuvre satirique de Molière dans une interprétation contemporaine, alliant humour et réflexion sur la condition humaine."
+    link="single"
+  }}
+  {{> "components/card.hbs"
+    imgName="agenda-musique-05.jpg"
+    imgAlt="Musicien"
+    title="Musique classique"
+    date="21 Avril à 20h30"
+    excerpt="Une soirée de musique classique, où chefs-d'œuvre et virtuoses se retrouvent pour une immersion sonore d’une rare intensité."
+    link="single"
+  }}
 </section>
 <section class="section">
+  <header class="section__header">
+    <h2 class="section__title">Inscriptions</h2>
+    <p class="section__intro">Vous êtes désireux d'entrer au conservatoire ? Vous trouverez ici toutes les informations sur les les modalités d'inscriptions.</p>
+  </header>
+  {{> "components/btn.hbs" class="section__link" link="inscription" text="S'inscrire"}}
+  <picture class="section__img duotone">
+    <img src="/src/assets/photos/crd-ext-01.jpg" alt="Façade Est du conservatoire">
+  </picture>
 
 </section>
 {{> "layouts/footer.hbs" }}

@@ -1,0 +1,69 @@
+{{> "layouts/header.hbs" title="Agenda — "}}
+{{> "components/hero.hbs" 
+  title="Agenda"
+  chapo="Lieu de création artistique, le conservatoire propose régulièrement des actions culturelles ouvertes à tous."
+  imgName="agenda-musique-09.jpg"
+  imgAlt="Orchestre"
+}}
+<div>
+  {{> "components/card.hbs"
+    imgName="agenda-danse.jpg"
+    imgAlt="danse"
+    title="Danse contemporaine"
+    date="Lundi 15 mars à 20h30"
+    excerpt="Plongez dans un spectacle envoûtant où mouvement et émotion se rencontrent pour redéfinir les codes de la danse moderne."
+    link="single"
+  }}
+  {{> "components/card.hbs"
+    imgName="agenda-03.jpg"
+    imgAlt="Le malade imaginaire"
+    title="Le malade imaginaire"
+    date="4 avril à 20h30"
+    excerpt="Redécouvrez l'œuvre satirique de Molière dans une interprétation contemporaine, alliant humour et réflexion sur la condition humaine."
+    link="single"
+  }}
+  {{> "components/card.hbs"
+    imgName="agenda-musique-05.jpg"
+    imgAlt="Musicien"
+    title="Musique classique"
+    date="21 Avril à 20h30"
+    excerpt="Une soirée de musique classique, où chefs-d'œuvre et virtuoses se retrouvent pour une immersion sonore d’une rare intensité."
+    link="single"
+  }}
+  {{> "components/card.hbs"
+    imgName="agenda-danse.jpg"
+    imgAlt="danse"
+    title="Danse contemporaine"
+    date="Lundi 15 mars à 20h30"
+    excerpt="Plongez dans un spectacle envoûtant où mouvement et émotion se rencontrent pour redéfinir les codes de la danse moderne."
+    link="single"
+  }}
+  {{> "components/card.hbs"
+    imgName="agenda-03.jpg"
+    imgAlt="Le malade imaginaire"
+    title="Le malade imaginaire"
+    date="4 avril à 20h30"
+    excerpt="Redécouvrez l'œuvre satirique de Molière dans une interprétation contemporaine, alliant humour et réflexion sur la condition humaine."
+    link="single"
+  }}
+  {{> "components/card.hbs"
+    imgName="agenda-musique-05.jpg"
+    imgAlt="Musicien"
+    title="Musique classique"
+    date="21 Avril à 20h30"
+    excerpt="Une soirée de musique classique, où chefs-d'œuvre et virtuoses se retrouvent pour une immersion sonore d’une rare intensité."
+    link="single"
+  }}
+</div>
+<nav class="navigation pagination">
+  <h2>Navigation des évènements</h2>
+  <div class="nav-links">
+    <a class="prev page-numbers" href="#">Précédent</a>
+    <span class="page-numbers current">1</span>
+    <a class="page-numbers" href="#">2</a>
+    <a class="page-numbers" href="#">3</a>
+    <a class="page-numbers" href="#">4</a>
+    <a class="next page-numbers" href="#">Suivant</a>
+  </div>
+</nav>
+{{> "layouts/footer.hbs" }}
