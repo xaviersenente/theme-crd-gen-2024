@@ -14,8 +14,12 @@
 @import "layouts/header";
 @import "layouts/footer";
 @import "layouts/grid";
+@import "layouts/section";
 
 /* Components */
 @import "components/menu";
 @import "components/hero";
 @import "components/menuTheme";
+@import "components/crd";
+@import "components/button";
+@import "components/card";

@@ -1,0 +1,40 @@
+.crd {
+  margin: 80px 0;
+}
+
+.crd__header {
+  padding: 80px 0;
+}
+
+.crd__title {
+  line-height: 1.5;
+  font-size: var(--fs-excerpt);
+  font-style: italic;
+  strong {
+    position: relative;
+    display: inline-block;
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 15px;
+      background-color: var(--brand-tonique);
+    }
+  }
+}
+
+.crd__stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--4xl);
+}
+
+.crd__chiffre {
+  font-size: var(--fs-display);
+  line-height: 1.1;
+  color: var(--brand-tonique);
+  display: block;
+}

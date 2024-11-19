@@ -1,0 +1,15 @@
+.section {
+  margin: 96px 0;
+}
+
+.section__title {
+  font-size: var(--fs-title-1);
+  line-height: 1.1;
+  margin: 0;
+}
+
+.section__intro {
+  font-size: var(--fs-excerpt);
+  line-height: 1.5;
+  margin: var(--4xl) 0;
+}
