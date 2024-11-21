@@ -16,6 +16,10 @@
   }
 }
 
+.header__logo {
+  display: flex;
+}
+
 .header__end {
   display: flex;
   flex-direction: row-reverse;
@@ -46,4 +50,21 @@
 
 .headroom--not-top .header__search svg > * {
   stroke: var(--gray-800);
+}
+
+@media (min-width: 960px) {
+  .header {
+    background-color: var(--gray-100);
+    align-items: stretch;
+  }
+  .header__start {
+    display: flex;
+    align-items: center;
+  }
+  .header__end {
+    flex-direction: row;
+  }
+  .headroom--top .header__end svg > * {
+    stroke: var(--gray-800);
+  }
 }

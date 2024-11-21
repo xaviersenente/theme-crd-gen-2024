@@ -22,3 +22,18 @@
     color: var(--gray-600);
   }
 }
+
+@media (min-width: 960px) {
+  .main-column {
+    box-sizing: content-box;
+    max-width: calc(var(--column) * 6 + var(--gutter) * 5);
+    margin-left: auto;
+    margin-right: auto;
+    figure {
+      margin-left: calc(-1 * (var(--column) + var(--gutter)));
+      margin-right: calc(-1 * (var(--column) + var(--gutter)));
+      margin-top: var(--4xl);
+      margin-bottom: var(--4xl);
+    }
+  }
+}

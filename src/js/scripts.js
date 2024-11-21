@@ -48,6 +48,8 @@ if (carousel) {
     imagesLoaded: true,
     lazyLoad: 3,
     cellAlign: "left",
+    arrowShape:
+      "M44.314 64.142L31.586 51.414a2 2 0 010-2.828l12.728-12.728a2 2 0 112.828 2.828L37.828 48H73v4H37.828l9.314 9.314a2 2 0 11-2.828 2.828z",
   });
 }
 
