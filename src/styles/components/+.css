@@ -1,6 +1,12 @@
 @import "./button.css";
 @import "./card.css";
+@import "./carousel.css";
 @import "./crd.css";
+@import "./gutenberg.css";
 @import "./hero.css";
+@import "./infos.css";
 @import "./menu.css";
 @import "./menuTheme.css";
+@import "./pagination.css";
+@import "./searchForm.css";
+@import "./single.css";

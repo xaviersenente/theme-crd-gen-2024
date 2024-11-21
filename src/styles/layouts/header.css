@@ -9,6 +9,11 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 var(--2xl);
+  transition: all 0.4s ease;
+
+  &.headroom--not-top {
+    background-color: var(--gray-100);
+  }
 }
 
 .header__end {
@@ -21,4 +26,24 @@
   svg > * {
     stroke: var(--gray-100);
   }
+}
+
+.headroom {
+  transition: transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+
+.headroom--not-top .menuBurger__bar,
+.headroom--not-top .menuBurger__bar::before,
+.headroom--not-top .menuBurger__bar::after {
+  background: var(--gray-800);
+}
+
+.headroom--not-top .header__search svg > * {
+  stroke: var(--gray-800);
 }

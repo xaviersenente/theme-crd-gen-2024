@@ -1,0 +1,22 @@
+.infos__row {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--gray-400);
+  padding: var(--lg) 0;
+}
+
+.infos__label {
+  font-size: var(--fs-small);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  flex: 1;
+}
+
+.infos__value {
+  flex: 3;
+  a {
+    text-decoration: none;
+    color: var(--gray-800);
+  }
+}

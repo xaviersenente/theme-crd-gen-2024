@@ -1,0 +1,11 @@
+.single__img {
+  margin: calc(-1 * var(--2xl));
+}
+
+.single__header {
+  margin-top: 78px;
+}
+
+.single__excerpt {
+  font-size: var(--fs-excerpt);
+}

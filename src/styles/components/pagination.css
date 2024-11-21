@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: var(--2xl);
+
+  .nav-links {
+    text-transform: uppercase;
+    .page-numbers {
+      display: inline-flex;
+      text-decoration: none;
+      color: var(--gray-800);
+      align-items: center;
+      justify-content: center;
+      min-width: 45px;
+      height: 45px;
+    }
+    .current {
+      border: 1px solid var(--gray-200);
+      border-radius: 50%;
+    }
+  }
+}

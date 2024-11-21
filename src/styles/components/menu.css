@@ -4,6 +4,7 @@
   overflow: hidden;
   position: fixed;
   inset: 0;
+  height: 100vh;
   background-color: var(--brand-dominante);
 
   font-size: var(--fs-excerpt);
@@ -60,10 +61,12 @@
 
 .menuBurger--open .menuBurger__bar {
   transform: rotate(135deg);
+  background: var(--gray-100);
 }
 
 .menuBurger--open .menuBurger__bar::before,
 .menuBurger--open .menuBurger__bar::after {
   transform: rotate(90deg);
+  background: var(--gray-100);
   top: 0;
 }

@@ -16,3 +16,14 @@
     box-shadow: inset 0 0 0 var(--sm) var(--brand-tonique);
   }
 }
+
+.btn--outlined {
+  color: var(--gray-100);
+  border-color: var(--gray-100);
+  &:hover {
+    box-shadow: inset 0 0 0 var(--sm) var(--gray-100);
+  }
+  svg path {
+    fill: var(--gray-100);
+  }
+}

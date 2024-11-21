@@ -2,3 +2,11 @@
   padding-left: var(--2xl);
   padding-right: var(--2xl);
 }
+@media (min-width: 960px) {
+  .grid {
+    display: grid;
+    grid: auto-flow dense / repeat(12, minmax(0, var(--column)));
+    gap: var(--gutter);
+    justify-content: center;
+  }
+}

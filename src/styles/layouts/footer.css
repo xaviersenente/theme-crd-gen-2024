@@ -42,3 +42,23 @@
 .footer__address {
   font-style: normal;
 }
+
+@media (min-width: 960px) {
+  .footer__logo {
+    grid-column: 1 / span 4;
+  }
+  .footer__menu {
+    grid-column: 7 / span 3;
+  }
+  .footer__contact {
+    grid-column: 10 / span 3;
+  }
+  .footer__gb {
+    grid-column: 7 / span 3;
+    grid-row: 2;
+  }
+  .footer__social {
+    grid-column: 10 / span 3;
+    grid-row: 2;
+  }
+}

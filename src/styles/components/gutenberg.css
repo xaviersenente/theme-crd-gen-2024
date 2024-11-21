@@ -1,0 +1,24 @@
+.main-column {
+  margin: 96px 0;
+  padding-left: var(--2xl);
+  padding-right: var(--2xl);
+
+  a {
+    text-decoration: none;
+    color: var(--gray-800);
+    border-bottom: 1px solid var(--gray-400);
+    transition: all 0.3s;
+    &:hover {
+      border-bottom-color: var(--gray-800);
+    }
+  }
+
+  figure {
+    margin: 0;
+  }
+
+  figcaption {
+    font-size: var(--fs-small);
+    color: var(--gray-600);
+  }
+}

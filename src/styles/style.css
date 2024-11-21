@@ -2,6 +2,7 @@
 
 /* Vendors */
 @import "vendors/normalize";
+@import "vendors/flickity";
 
 /* Utils */
 @import "utils/variables";
@@ -23,3 +24,9 @@
 @import "components/crd";
 @import "components/button";
 @import "components/card";
+@import "components/carousel";
+@import "components/single";
+@import "components/infos";
+@import "components/searchForm";
+@import "components/pagination";
+@import "components/gutenberg";

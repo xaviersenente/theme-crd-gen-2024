@@ -8,7 +8,7 @@
     <script type="module" src="/src/js/scripts.js"></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header headroom">
       <div class="header__start">
         <a  class="header__logo" href="/">
           <svg width="50" height="50" viewBox="0 0 65 65" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,6 +22,7 @@
         <button class="header__menuBtn menuBurger" aria-controls="mainNav" aria-expanded="false" aria-label="Accéder au menu">
           <span class="menuBurger__bar" aria-hidden="true"></span>
         </button>
+        {{> "components/searchform.hbs" }}
         <nav class="header__menu menu" id="mainNav" aria-hidden="true">
           <ul class="menu__list listUnstyled">
             <li class="menu__item"><a class="menu__link" href="conservatoire">Le conservatoire</a></li>

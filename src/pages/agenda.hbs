@@ -5,7 +5,7 @@
   imgName="agenda-musique-09.jpg"
   imgAlt="Orchestre"
 }}
-<div>
+<div class="section grid">
   {{> "components/card.hbs"
     imgName="agenda-danse.jpg"
     imgAlt="danse"
@@ -55,14 +55,12 @@
     link="single"
   }}
 </div>
-<nav class="navigation pagination">
-  <h2>Navigation des évènements</h2>
+<nav class="navigation pagination" aria-label="Navigation des évènements">
   <div class="nav-links">
     <a class="prev page-numbers" href="#">Précédent</a>
     <span class="page-numbers current">1</span>
     <a class="page-numbers" href="#">2</a>
     <a class="page-numbers" href="#">3</a>
-    <a class="page-numbers" href="#">4</a>
     <a class="next page-numbers" href="#">Suivant</a>
   </div>
 </nav>

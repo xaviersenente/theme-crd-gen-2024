@@ -1,0 +1,20 @@
+.carousel {
+  padding-top: var(--4xl);
+  padding-bottom: var(--4xl);
+  width: 100vw;
+  margin-left: calc(-1 * var(--2xl));
+}
+
+.carousel__item {
+  width: 66%;
+  margin-right: var(--2xl);
+}
+
+.flickity-prev-next-button.next,
+.flickity-prev-next-button.previous {
+  visibility: hidden;
+}
+
+.flickity-page-dots {
+  bottom: 20px;
+}
